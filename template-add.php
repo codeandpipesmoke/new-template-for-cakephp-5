@@ -1,3 +1,117 @@
+            <!--Bootstrap Date Picker -->
+            <div class="row clearfix">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="card">
+                        <div class="header">
+                            <h2>
+                                BOOTSTRAP DATE PICKER
+                                <small>Taken from <a href="https://github.com/uxsolutions/bootstrap-datepicker" target="_blank">github.com/uxsolutions/bootstrap-datepicker</a></small>
+                            </h2>
+                            <ul class="header-dropdown m-r--5">
+                                <li class="dropdown">
+                                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class="material-icons">more_vert</i>
+                                    </a>
+                                    <ul class="dropdown-menu pull-right">
+                                        <li><a href="javascript:void(0);">Action</a></li>
+                                        <li><a href="javascript:void(0);">Another action</a></li>
+                                        <li><a href="javascript:void(0);">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="body">
+                            <div class="row clearfix">
+                                <div class="col-xs-3">
+                                    <h2 class="card-inside-title">Text Input</h2>
+                                    <div class="form-group">
+                                        <div class="form-line" id="bs_datepicker_container">
+                                            <input type="text" class="form-control" placeholder="Please choose a date...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-3">
+                                    <h2 class="card-inside-title">Component</h2>
+                                    <div class="input-group date" id="bs_datepicker_component_container">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="Please choose a date...">
+                                        </div>
+                                        <span class="input-group-addon">
+                                            <i class="material-icons">date_range</i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <h2 class="card-inside-title">Range</h2>
+                                    <div class="input-daterange input-group" id="bs_datepicker_range_container">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="Date start...">
+                                        </div>
+                                        <span class="input-group-addon">to</span>
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="Date end...">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--#END# Bootstrap Date Picker -->
+			
+
+            <!--DateTime Picker -->
+            <div class="row clearfix">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="card">
+                        <div class="header">
+                            <h2>
+                                DATETIME PICKER
+                                <small>Taken from <a href="https://github.com/T00rk/bootstrap-material-datetimepicker" target="_blank">github.com/T00rk/bootstrap-material-datetimepicker</a> with <a href="http://momentjs.com/" target="_blank">momentjs.com</a></small>
+                            </h2>
+                            <ul class="header-dropdown m-r--5">
+                                <li class="dropdown">
+                                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class="material-icons">more_vert</i>
+                                    </a>
+                                    <ul class="dropdown-menu pull-right">
+                                        <li><a href="javascript:void(0);">Action</a></li>
+                                        <li><a href="javascript:void(0);">Another action</a></li>
+                                        <li><a href="javascript:void(0);">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="body">
+                            <div class="row clearfix">
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" class="datepicker form-control" placeholder="Please choose a date...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" class="timepicker form-control" placeholder="Please choose a time...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" class="datetimepicker form-control" placeholder="Please choose date & time...">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--#END# DateTime Picker -->
 
 
 
@@ -11,6 +125,7 @@
 
 
 
+<?php /*
 
 
 
@@ -1144,123 +1259,9 @@
 
 
 
-            <!--Bootstrap Date Picker -->
-            <div class="row clearfix">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="card">
-                        <div class="header">
-                            <h2>
-                                BOOTSTRAP DATE PICKER
-                                <small>Taken from <a href="https://github.com/uxsolutions/bootstrap-datepicker" target="_blank">github.com/uxsolutions/bootstrap-datepicker</a></small>
-                            </h2>
-                            <ul class="header-dropdown m-r--5">
-                                <li class="dropdown">
-                                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                        <i class="material-icons">more_vert</i>
-                                    </a>
-                                    <ul class="dropdown-menu pull-right">
-                                        <li><a href="javascript:void(0);">Action</a></li>
-                                        <li><a href="javascript:void(0);">Another action</a></li>
-                                        <li><a href="javascript:void(0);">Something else here</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="body">
-                            <div class="row clearfix">
-                                <div class="col-xs-3">
-                                    <h2 class="card-inside-title">Text Input</h2>
-                                    <div class="form-group">
-                                        <div class="form-line" id="bs_datepicker_container">
-                                            <input type="text" class="form-control" placeholder="Please choose a date...">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xs-3">
-                                    <h2 class="card-inside-title">Component</h2>
-                                    <div class="input-group date" id="bs_datepicker_component_container">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="Please choose a date...">
-                                        </div>
-                                        <span class="input-group-addon">
-                                            <i class="material-icons">date_range</i>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="col-xs-6">
-                                    <h2 class="card-inside-title">Range</h2>
-                                    <div class="input-daterange input-group" id="bs_datepicker_range_container">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="Date start...">
-                                        </div>
-                                        <span class="input-group-addon">to</span>
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="Date end...">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--#END# Bootstrap Date Picker -->
 			
 			
 			
-			
-            <!--DateTime Picker -->
-            <div class="row clearfix">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="card">
-                        <div class="header">
-                            <h2>
-                                DATETIME PICKER
-                                <small>Taken from <a href="https://github.com/T00rk/bootstrap-material-datetimepicker" target="_blank">github.com/T00rk/bootstrap-material-datetimepicker</a> with <a href="http://momentjs.com/" target="_blank">momentjs.com</a></small>
-                            </h2>
-                            <ul class="header-dropdown m-r--5">
-                                <li class="dropdown">
-                                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                        <i class="material-icons">more_vert</i>
-                                    </a>
-                                    <ul class="dropdown-menu pull-right">
-                                        <li><a href="javascript:void(0);">Action</a></li>
-                                        <li><a href="javascript:void(0);">Another action</a></li>
-                                        <li><a href="javascript:void(0);">Something else here</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="body">
-                            <div class="row clearfix">
-                                <div class="col-sm-4">
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <input type="text" class="datepicker form-control" placeholder="Please choose a date...">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <input type="text" class="timepicker form-control" placeholder="Please choose a time...">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <input type="text" class="datetimepicker form-control" placeholder="Please choose date & time...">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--#END# DateTime Picker -->
-
 
 
 
@@ -1802,31 +1803,4 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/ ?>
