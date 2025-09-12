@@ -21,7 +21,30 @@
     <!-- Animation Css -->
     <link href="/plugins/animate-css/animate.css" rel="stylesheet" />
 
+<?php if(isset($_GET["m"]) and $_GET["m"] == "caroussel"){ ?>
+    
+    
+<?php } ?>
 <?php if(isset($_GET["m"]) and $_GET["m"] == "add"){ ?>
+
+    <!-- Sweet Alert Css -->
+    <link href="/plugins/sweetalert/sweetalert.css" rel="stylesheet" />
+
+    <!-- Bootstrap Spinner Css -->
+    <link href="/plugins/jquery-spinner/css/bootstrap-spinner.css" rel="stylesheet">
+
+    <!-- Bootstrap Tagsinput Css -->
+    <link href="/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css" rel="stylesheet">
+
+    <!-- Multi Select Css -->
+    <link href="/plugins/multi-select/css/multi-select.css" rel="stylesheet">
+
+    <!-- Bootstrap Select Css -->
+    <link href="/plugins/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" />
+
+    <!-- Dropzone Css -->
+    <link href="/plugins/dropzone/dropzone.css" rel="stylesheet">
+
     <!-- Bootstrap Material Datetime Picker Css -->
     <link href="/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet" />
 
@@ -31,21 +54,6 @@
 <?php /*
     <!-- Colorpicker Css -->
     <link href="/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.css" rel="stylesheet" />
-
-    <!-- Dropzone Css -->
-    <link href="/plugins/dropzone/dropzone.css" rel="stylesheet">
-
-    <!-- Multi Select Css -->
-    <link href="/plugins/multi-select/css/multi-select.css" rel="stylesheet">
-
-    <!-- Bootstrap Spinner Css -->
-    <link href="/plugins/jquery-spinner/css/bootstrap-spinner.css" rel="stylesheet">
-
-    <!-- Bootstrap Tagsinput Css -->
-    <link href="/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css" rel="stylesheet">
-
-    <!-- Bootstrap Select Css -->
-    <link href="/plugins/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" />
 
     <!-- noUISlider Css -->
     <link href="/plugins/nouislider/nouislider.min.css" rel="stylesheet" />
@@ -80,6 +88,14 @@
 		<?php include("template-add.php") ?>
 <?php } ?>
 
+<?php if(isset($_GET["m"]) and $_GET["m"] == "gallery"){ ?>
+		<?php include("template-gallery.php") ?>
+<?php } ?>
+
+<?php if(isset($_GET["m"]) and $_GET["m"] == "caroussel"){ ?>
+		<?php include("template-caroussel.php") ?>
+<?php } ?>
+
         </div>
     </section>
 
@@ -103,12 +119,6 @@
     <!-- Bootstrap Colorpicker Js -->
     <script src="/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
 
-    <!-- Dropzone Plugin Js -->
-    <script src="/plugins/dropzone/dropzone.js"></script>
-
-    <!-- Input Mask Plugin Js -->
-    <script src="/plugins/jquery-inputmask/jquery.inputmask.bundle.js"></script>
-
     <!-- Multi Select Plugin Js -->
     <script src="/plugins/multi-select/js/jquery.multi-select.js"></script>
 
@@ -122,11 +132,49 @@
     <script src="/plugins/nouislider/nouislider.js"></script>
 */ ?>
 
+    <!-- Light Gallery Plugin Js -->
+    <script src="/plugins/light-gallery/js/lightgallery-all.js"></script>
+
+
+    <!-- Ckeditor -->
+    <script src="/plugins/ckeditor/ckeditor.js"></script>
+
+    <!-- TinyMCE -->
+    <script src="/plugins/tinymce/tinymce.js"></script>
+
+
+    <!-- Slimscroll Plugin Js -->
+    <script src="/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+    <!-- Jquery Validation Plugin Css -->
+    <script src="/plugins/jquery-validation/jquery.validate.js"></script>
+
+    <!-- JQuery Steps Plugin Js -->
+    <script src="/plugins/jquery-steps/jquery.steps.js"></script>
+
+    <!-- Sweet Alert Plugin Js -->
+    <script src="/plugins/sweetalert/sweetalert.min.js"></script>
+
     <!-- Waves Effect Plugin Js -->
     <script src="/plugins/node-waves/waves.js"></script>
 
-    <!-- Autosize Plugin Js -->
+    <!-- Autosize Plugin Js for textarea -->
     <script src="/plugins/autosize/autosize.js"></script>
+
+    <!-- Jquery Spinner Plugin Js -->
+    <script src="/plugins/jquery-spinner/js/jquery.spinner.js"></script>
+
+    <!-- Bootstrap Tags Input Plugin Js -->
+    <script src="/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
+
+    <!-- Multi Select Plugin Js -->
+    <script src="/plugins/multi-select/js/jquery.multi-select.js"></script>
+
+    <!-- Input Mask Plugin Js -->
+    <script src="/plugins/jquery-inputmask/jquery.inputmask.bundle.js"></script>
+    
+    <!-- Dropzone Plugin Js -->
+    <script src="/plugins/dropzone/dropzone.js"></script>
 
     <!-- Moment Plugin Js -->
     <script src="/plugins/momentjs/moment.js"></script>
@@ -140,11 +188,21 @@
 
     <!-- Custom Js -->
     <script src="/js/admin.js"></script>
+<?php if(isset($_GET["m"]) and $_GET["m"] == "gallery"){ ?>
+    <script src="/plugins/light-gallery/js/lightgallery-all.js"></script>
+    <script src="/js/pages/medias/image-gallery.js"></script>
+<?php } ?>
+<?php if(isset($_GET["m"]) and $_GET["m"] == "caroussel"){ ?>
+    
+    
+<?php } ?>
 <?php if(isset($_GET["m"]) and $_GET["m"] == "add"){ ?>
-    <script src="../../js/pages/forms/basic-form-elements.js"></script>
-    <!-- script src="/js/pages/forms/advanced-form-elements.js"></script -->
+    <script src="/js/pages/forms/basic-form-elements.js"></script>
+    <script src="/js/pages/forms/advanced-form-elements.js"></script>
+    <script src="/js/pages/forms/form-validation.js"></script>
+    <script src="/js/pages/forms/editors.js"></script>
 <?php }else{ ?>
-    <script src="/js/pages/ui/tooltips-popovers.js"></script>
+    <script src="/js/pages/ui/tooltips-popovers.js"></script>    
 <?php } ?>
 
     <!-- Demo Js -->

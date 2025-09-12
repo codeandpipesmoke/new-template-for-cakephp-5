@@ -1,6 +1,4 @@
 $(function () {
-    $('.colorpicker').colorpicker();
-
     //Dropzone
     Dropzone.options.frmFileUpload = {
         paramName: "file",
@@ -46,6 +44,8 @@ $(function () {
     //Multi-select
     $('#optgroup').multiSelect({ selectableOptgroup: true });
 
+
+/*
     //noUISlider
     var sliderBasic = document.getElementById('nouislider_basic_example');
     noUiSlider.create(sliderBasic, {
@@ -83,3 +83,4 @@ function getNoUISliderValue(slider, percentage) {
         $(slider).parent().find('span.js-nouislider-value').text(val);
     });
 }
+*/
