@@ -13,7 +13,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap Core Css -->
-    <link href="/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!--link href="/plugins/bootstrap/css/bootstrap.css" rel="stylesheet"-->
+    <link href="/plugins/bootstrap-5.3.8-dist/css/bootstrap.css" rel="stylesheet">
 
     <!-- Waves Effect Css -->
     <link href="/plugins/node-waves/waves.css" rel="stylesheet" />
@@ -103,7 +104,8 @@
     <script src="/plugins/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core Js -->
-    <script src="/plugins/bootstrap/js/bootstrap.js"></script>
+    <!--script src="/plugins/bootstrap/js/bootstrap.js"></script-->
+    <script src="/plugins/bootstrap-5.3.8-dist/js/bootstrap.js"></script>
 
     <!-- Select Plugin Js -->
     <script src="/plugins/bootstrap-select/js/bootstrap-select.js"></script>
