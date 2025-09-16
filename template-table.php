@@ -9,7 +9,7 @@
                             </h2>
                             <ul class="header-dropdown m-r--5">
                                 <li class="dropdown">
-                                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <a href="javascript:void(0);" class="dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                         <i class="material-icons">more_vert</i>
                                     </a>
                                     <ul class="dropdown-menu pull-right">
@@ -55,13 +55,13 @@
                                         <td>Otto</td>
                                         <td>Otto</td>
                                         <td class="text-center">
-											<button type="button" class="btn btn-xs btn-default waves-effect" data-toggle="tooltip" data-placement="top" title="Adatlap megtekintése">
+											<button type="button" class="btn btn-xs btn-default waves-effect" data-bs-toggle="tooltip" data-placement="top" title="Adatlap megtekintése">
 												<i class="material-icons">visibility</i>
 											</button>
-											<button type="button" class="btn btn-xs btn-default waves-effect" data-toggle="tooltip" data-placement="top" title="Módosítás">
+											<button type="button" class="btn btn-xs btn-default waves-effect" data-bs-toggle="tooltip" data-placement="top" title="Módosítás">
 												<i class="material-icons">edit</i>
 											</button>										
-											<button type="button" class="btn btn-xs btn-danger waves-effect" data-toggle="tooltip" data-placement="top" title="Törlés">
+											<button type="button" class="btn btn-xs btn-danger waves-effect" data-bs-toggle="tooltip" data-placement="top" title="Törlés">
 												<i class="material-icons">remove</i>
 											</button>										
 										</td>
@@ -72,13 +72,13 @@
                                         <td>Otto</td>
                                         <td>@mdo</td>
                                         <td class="text-center">
-											<button type="button" class="btn btn-xs btn-default waves-effect" disabled="disabled" data-toggle="tooltip" data-placement="top" title="Adatlap megtekintése">
+											<button type="button" class="btn btn-xs btn-default waves-effect" disabled="disabled" data-bs-toggle="tooltip" data-placement="top" title="Adatlap megtekintése">
 												<i class="material-icons">visibility</i>
 											</button>
-											<button type="button" class="btn btn-xs btn-default waves-effect" disabled="disabled" data-toggle="tooltip" data-placement="top" title="Módosítás">
+											<button type="button" class="btn btn-xs btn-default waves-effect" disabled="disabled" data-bs-toggle="tooltip" data-placement="top" title="Módosítás">
 												<i class="material-icons">edit</i>
 											</button>										
-											<button type="button" class="btn btn-xs btn-danger waves-effect" disabled="disabled" data-toggle="tooltip" data-placement="top" title="Törlés">
+											<button type="button" class="btn btn-xs btn-danger waves-effect" disabled="disabled" data-bs-toggle="tooltip" data-placement="top" title="Törlés">
 												<i class="material-icons">remove</i>
 											</button>										
 										</td>
@@ -89,13 +89,13 @@
                                         <td>Thornton</td>
                                         <td>@fat</td>
                                         <td class="text-center">
-											<button type="button" class="btn btn-xs btn-default waves-effect" data-toggle="tooltip" data-placement="top" title="Adatlap megtekintése">
+											<button type="button" class="btn btn-xs btn-default waves-effect" data-bs-toggle="tooltip" data-placement="top" title="Adatlap megtekintése">
 												<i class="material-icons">visibility</i>
 											</button>
-											<button type="button" class="btn btn-xs btn-default waves-effect" data-toggle="tooltip" data-placement="top" title="Módosítás">
+											<button type="button" class="btn btn-xs btn-default waves-effect" data-bs-toggle="tooltip" data-placement="top" title="Módosítás">
 												<i class="material-icons">edit</i>
 											</button>										
-											<button type="button" class="btn btn-xs btn-danger waves-effect" data-toggle="tooltip" data-placement="top" title="Törlés">
+											<button type="button" class="btn btn-xs btn-danger waves-effect" data-bs-toggle="tooltip" data-placement="top" title="Törlés">
 												<i class="material-icons">remove</i>
 											</button>										
 										</td>
@@ -106,13 +106,13 @@
                                         <td>the Bird</td>
                                         <td>@twitter</td>
                                         <td class="text-center">
-											<button type="button" class="btn btn-xs btn-default waves-effect" data-toggle="tooltip" data-placement="top" title="Adatlap megtekintése">
+											<button type="button" class="btn btn-xs btn-default waves-effect" data-bs-toggle="tooltip" data-placement="top" title="Adatlap megtekintése">
 												<i class="material-icons">visibility</i>
 											</button>
-											<button type="button" class="btn btn-xs btn-default waves-effect" data-toggle="tooltip" data-placement="top" title="Módosítás">
+											<button type="button" class="btn btn-xs btn-default waves-effect" data-bs-toggle="tooltip" data-placement="top" title="Módosítás">
 												<i class="material-icons">edit</i>
 											</button>										
-											<button type="button" class="btn btn-xs btn-danger waves-effect" data-toggle="tooltip" data-placement="top" title="Törlés">
+											<button type="button" class="btn btn-xs btn-danger waves-effect" data-bs-toggle="tooltip" data-placement="top" title="Törlés">
 												<i class="material-icons">remove</i>
 											</button>										
 										</td>
@@ -123,13 +123,13 @@
                                         <td>Jellybean</td>
                                         <td>@lajelly</td>
                                         <td class="text-center">
-											<button type="button" class="btn btn-xs bg-orange waves-effect" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+											<button type="button" class="btn btn-xs bg-orange waves-effect" data-bs-toggle="tooltip" data-placement="top" title="Tooltip on top">
 												<i class="material-icons">visibility</i>
 											</button>
-											<button type="button" class="btn btn-xs btn-success waves-effect" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+											<button type="button" class="btn btn-xs btn-success waves-effect" data-bs-toggle="tooltip" data-placement="top" title="Tooltip on top">
 												<i class="material-icons">edit</i>
 											</button>										
-											<button type="button" class="btn btn-xs bg-red waves-effect" disabled="disabled" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+											<button type="button" class="btn btn-xs bg-red waves-effect" disabled="disabled" data-bs-toggle="tooltip" data-placement="top" title="Tooltip on top">
 												<i class="material-icons">remove</i>
 											</button>										
 										</td>
@@ -140,13 +140,13 @@
                                         <td>Kikat</td>
                                         <td>@lakitkat</td>
                                         <td class="text-center">
-											<button type="button" class="btn btn-xs bg-orange waves-effect" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+											<button type="button" class="btn btn-xs bg-orange waves-effect" data-bs-toggle="tooltip" data-placement="top" title="Tooltip on top">
 												<i class="material-icons">visibility</i>
 											</button>
-											<button type="button" class="btn btn-xs btn-success waves-effect" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+											<button type="button" class="btn btn-xs btn-success waves-effect" data-bs-toggle="tooltip" data-placement="top" title="Tooltip on top">
 												<i class="material-icons">edit</i>
 											</button>										
-											<button type="button" class="btn btn-xs bg-red waves-effect" disabled="disabled" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+											<button type="button" class="btn btn-xs bg-red waves-effect" disabled="disabled" data-bs-toggle="tooltip" data-placement="top" title="Tooltip on top">
 												<i class="material-icons">remove</i>
 											</button>										
 										</td>

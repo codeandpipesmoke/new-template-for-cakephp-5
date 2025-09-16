@@ -5,7 +5,7 @@
                             <h2>WITH CAPTIONS</h2>
                             <ul class="header-dropdown m-r--5">
                                 <li class="dropdown">
-                                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <a href="javascript:void(0);" class="dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                         <i class="material-icons">more_vert</i>
                                     </a>
                                     <ul class="dropdown-menu pull-right">
@@ -20,9 +20,9 @@
                             <div id="carousel-example-generic_2" class="carousel slide" data-ride="carousel">
                                 <!-- Indicators -->
                                 <ol class="carousel-indicators">
-                                    <li data-target="#carousel-example-generic_2" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carousel-example-generic_2" data-slide-to="1"></li>
-                                    <li data-target="#carousel-example-generic_2" data-slide-to="2"></li>
+                                    <li data-bs-target="#carousel-example-generic_2" data-slide-to="0" class="active"></li>
+                                    <li data-bs-target="#carousel-example-generic_2" data-slide-to="1"></li>
+                                    <li data-bs-target="#carousel-example-generic_2" data-slide-to="2"></li>
                                 </ol>
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner" role="listbox">

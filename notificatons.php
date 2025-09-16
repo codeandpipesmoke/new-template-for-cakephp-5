@@ -1,6 +1,6 @@
                     <!-- Notifications -->
 					<li class="dropdown">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-bs-toggle="dropdown" role="button">
                             <i class="material-icons">notifications</i>
                             <span class="label-count">7</span>
                         </a>
@@ -109,7 +109,7 @@
                     <!-- #END# Notifications -->
                     <!-- Tasks -->
                     <li class="dropdown">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-bs-toggle="dropdown" role="button">
                             <i class="material-icons">flag</i>
                             <span class="label-count">9</span>
                         </a>
