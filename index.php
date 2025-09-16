@@ -203,8 +203,14 @@
     <script src="/js/pages/forms/advanced-form-elements.js"></script>
     <script src="/js/pages/forms/form-validation.js"></script>
     <script src="/js/pages/forms/editors.js"></script>
-<?php }else{ ?>
-    <script src="/js/pages/ui/tooltips-popovers.js"></script>    
+<?php }else{ ?>    
+    
+<?php } ?>
+
+
+
+<?php if(!isset($_GET["m"]) or $_GET["m"] == "table"){ ?>
+    <script src="/js/pages/ui/tooltips-popovers.js"></script>
 <?php } ?>
 
     <!-- Demo Js -->

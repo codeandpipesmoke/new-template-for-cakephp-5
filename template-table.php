@@ -38,7 +38,7 @@
                                 </button>
                             </div>
 						
-							<table class="table table-striped table-bordered table-hover  table-condensed">
+							<table class="table table-striped table-bordered table-hover table-condensed">
                                 <thead>
                                     <tr>
                                         <th>#</th>
