@@ -79,21 +79,17 @@
 	
     <section class="content">
         <div class="container-fluid">
-
 <?php if(!isset($_GET["m"]) or $_GET["m"] == "table"){ ?>
-		<?php include("template-table.php") ?>
+		    <?php //include("template-table.php") ?>
 <?php } ?>
-
 <?php if(isset($_GET["m"]) and $_GET["m"] == "add"){ ?>
-		<?php include("template-add.php") ?>
+		    <?php include("template-add.php") ?>
 <?php } ?>
-
 <?php if(isset($_GET["m"]) and $_GET["m"] == "gallery"){ ?>
-		<?php include("template-gallery.php") ?>
+		    <?php include("template-gallery.php") ?>
 <?php } ?>
-
 <?php if(isset($_GET["m"]) and $_GET["m"] == "caroussel"){ ?>
-		<?php include("template-caroussel.php") ?>
+		    <?php include("template-caroussel.php") ?>
 <?php } ?>
 
         </div>
